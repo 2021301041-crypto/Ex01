@@ -13,7 +13,7 @@ pipeline {
         stage('1. Build') {
             steps {
                 echo '메이븐으로 빌드'
-                sh 'mvnw clean package'
+                sh 'mvn clean package'
             }
         }
     }
