@@ -25,7 +25,7 @@ pipeline {
         stage('3. Docker Build') {
             steps {
                 echo 'Docker 파일 빌드'
-                sh 'docker build -t ex01-app:latest'
+                sh 'docker build -t ex01-app:latest .'
             }
         }
     }
