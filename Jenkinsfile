@@ -19,7 +19,7 @@ pipeline {
         stage('2. Check Docker') {
             steps {
                 echo 'Docker 버전 확인'
-                sh 'Docker version'
+                sh 'docker version'
                 }
         }
     }
